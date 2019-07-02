@@ -15,4 +15,8 @@ public class RuleMethodTest implements TestRule {
         return new StatementTest1(base);
     }
 
+    public void hello() {
+        System.out.println("hello.");
+    }
+
 }

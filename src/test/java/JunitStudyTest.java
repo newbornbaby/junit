@@ -59,5 +59,6 @@ public class JunitStudyTest {
     public void test() throws IOException {
         assertEquals(sum, param1 + param2);
         System.out.println("test function.");
+        ruleMethodTest.hello();
     }
 }
