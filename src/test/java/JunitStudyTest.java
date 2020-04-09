@@ -60,5 +60,6 @@ public class JunitStudyTest {
         assertEquals(sum, param1 + param2);
         System.out.println("test function.");
         ruleMethodTest.hello();
+        //System.out.println("sss,bbb".contains("sss"));
     }
 }
