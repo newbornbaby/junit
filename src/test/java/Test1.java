@@ -118,4 +118,18 @@ public class Test1 {
         }
     }
 
+    /**
+     * @Description "<<" 位移符号测试
+     * @Author SpiderMao
+     * @CreateDate 2020/4/15 18:14
+     **/
+    @Test
+    public void testWY() {
+        int a = Integer.SIZE - 3;
+        System.out.println(-1 << (a));
+        System.out.println(0 << (a));
+        System.out.println(3 << (a));
+        System.out.println(-1 << (a) | 0);
+    }
+
 }

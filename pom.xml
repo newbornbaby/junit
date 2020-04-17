@@ -11,6 +11,7 @@
     <properties>
         <junit.version>4.12</junit.version>
         <ganymed-ssh2.version>build210</ganymed-ssh2.version>
+        <curator.version>2.12.0</curator.version>
     </properties>
 
     <dependencies>
@@ -20,10 +21,22 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- ssh工具 -->
         <dependency>
             <groupId>ch.ethz.ganymed</groupId>
             <artifactId>ganymed-ssh2</artifactId>
             <version>${ganymed-ssh2.version}</version>
+        </dependency>
+        <!-- zookeeper客户端 -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${curator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${curator.version}</version>
         </dependency>
     </dependencies>
     
