@@ -16,7 +16,8 @@ public class SSHTest {
      **/
     @Test
     public void test() {
-        String hostname = "192.168.111.130";
+        //String hostname = "192.168.111.130";
+        String hostname = "server01";
         String username = "admin";
         String password = "123456";
         SSHBasic.SSHConnect(hostname, username, password);
