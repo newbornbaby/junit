@@ -12,7 +12,7 @@
         <junit.version>4.12</junit.version>
         <ganymed-ssh2.version>build210</ganymed-ssh2.version>
         <curator.version>2.12.0</curator.version>
-        <spring-web.version>5.2.0.RELEASE</spring-web.version>
+        <spring-web.version>6.0.0</spring-web.version>
         <httpclient.version>4.5.9</httpclient.version>
         <fastjson.version>1.2.60</fastjson.version>
         <guava.version>23.0</guava.version>
